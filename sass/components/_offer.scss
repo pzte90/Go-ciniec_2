@@ -1,0 +1,40 @@
+.offer-item{
+    width: 100%;
+    padding: 0 15px 20px;
+    background-color: $bgc-color;
+    text-align: center;
+    img{
+        width: 100%;
+        display: block;
+        @media (orientation: landscape) {
+            width: auto;
+            height: 40vw;
+            margin: 0 auto;
+        }
+    }
+    &__head{
+        font-size: 3rem;
+        padding-top: 10px;
+        color: $contrast-color;
+    }
+    &__text{
+        font-size: 2rem;
+        padding: 10px 0 5px;
+        color: $text-color;
+        @media (orientation: landscape) {
+            width:80%;
+            margin: 0 auto;
+        }
+    }
+    &__info{
+        display: inline-block;
+        padding: 2px 3px;
+        margin: 5px 2px;
+        border: 1px solid $text-color;
+        font-size: 1.5rem;
+        color: black;
+    }
+    .fas{
+        color: rgba(0, 0, 0, 0.425);
+    }
+}

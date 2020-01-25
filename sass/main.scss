@@ -1,0 +1,18 @@
+@import 'base/reset';
+@import 'base/normalize';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Tinos:400,700&display=swap&subset=latin-ext);
+
+
+//Zmienne globalne
+@import 'utilis/variables';
+
+
+//Komponenty uniwersalne
+
+
+//Budowa strony
+@import 'components/header';
+@import 'components/nav';
+@import 'components/aside';
+@import 'components/offer';

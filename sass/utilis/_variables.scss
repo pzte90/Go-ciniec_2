@@ -1,0 +1,6 @@
+$colors: (first: rgb(234, 234, 234), second:rgb(37, 42, 52), third: rgb(255, 46, 99),  fourth: rgba(61, 131, 172, 0.863));
+
+$bgc-color: map-get($colors, first );
+$text-color: map-get($colors, second );
+$contrast-color: map-get($colors, third );
+$mobile-menu-color: map-get($colors, fourth );

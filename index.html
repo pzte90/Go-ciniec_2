@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Patryk Zmuda-Trzebiatowski">
+    <meta name="robots" content="index, follow">
+    <!--https://developers.google.com/search/reference/robots_meta_tag?hl=pl-->
+
+    <title>Projekt_3</title> <!--dobra praktyka: do 60 znaków-->
+    <!--https://support.google.com/webmasters/answer/35624?hl=pl-->
+
+    <meta name="description" content="Hotel, GRID, FLEX, SCSS, BEM, JS"> <!--dobra praktyka: do 160 znaków-->
+    <!--https://support.google.com/webmasters/answer/35624?hl=pl-->
+
+    <meta name="keywords" content="Hotel, GRID, FLEX, SCSS, BEM, JS"> <!--Pdobno google juz go nie uzywa, ale może przydać się dla innych wyszukiwarek-->
+
+
+    <script src="https://kit.fontawesome.com/d12ccddb36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <nav class="navigation">
+        <i class="navigation__mobile-bar fas fa-bars show"></i>
+        <ul class="navigation__list">
+            <li class="navigation__list-item"><a href="#header">Strona Główna</a></li>
+            <li class="navigation__list-item"><a href="#">Galeria</a></li>
+            <li class="navigation__list-item"><a href="#">Rezerwacje</a></li>
+            <li class="navigation__list-item"><a href="#">Mapa</a></li>
+            <li class="navigation__list-item"><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header id="header" class="header">
+        <div class="header__gallery">
+            <img src="img/hotel.jpg" alt="">
+        </div>
+        <i class="header__arrow header__arrow--left fas fa-chevron-left"></i>
+        <i class="header__arrow header__arrow--right fas fa-chevron-right"></i>
+    </header>
+
+    <aside class="aside-content">
+        <h1 class="aside-content__header-1">Gościniec Płock</h1>
+        <h2 class="aside-content__header-2">Zaprasza</h2>
+        <hr>
+        <p class="aside-content__text">Przyjedź do nas sam lub z rodziną, pozostań na jedną noc lub kilka tygodni w trakcie podróży biznesowej, odpoczynku w trakcie przejzadu przez Płock czy też innych celach - nasz pensjonat jest nalepszym dla Ciebie wyborem.</p>
+        <hr>
+        <p class="aside-content__text">Zapraszamy do kontaktu z nami w każdej chwili w przypadku jakichkolwiek zapytań w sprawie noclegów w Płocku i rezerwacji.</p>
+        <hr>
+    </aside>
+
+    <section class="offer">
+        <div class="offer-item offer__premium">
+            <img src="img/bedroom_lite_2.jpg" alt="zdjęcie pokoju hotelowego">
+            <h1 class="offer-item__head">Pokoje Premium</h1>
+            <p class="offer-item__text">Pokoje skierowane dla bardziej wymagających klientów</p>
+            <span class="offer-item__info"><i class="fas fa-dollar-sign"></i> 100-140 PLN/pok.</span>
+            <span class="offer-item__info"><i class="fas fa-door-open"></i> 3 pokoje</span>
+            <span class="offer-item__info"><i class="fas fa-bed"></i> 3 łóżka</span>
+            <span class="offer-item__info"><i class="fas fa-bath"></i>  Łazienka w pokoju</span>
+        </div>
+        <div class="offer-item offer__high">
+            <img src="img/bedroom_lite_2.jpg" alt="zdjęcie pokoju hotelowego">
+            <h1 class="offer-item__head">Pokoje Ekonomiczne</h1>
+            <p class="offer-item__text">Pokoje skierowane w szczególności do podróżnych na jedną noc lub kilka godzin pobytu w kwaterach w Płocku</p>
+            <span class="offer-item__info"><i class="fas fa-dollar-sign"></i> 80 PLN/pok.</span>
+            <span class="offer-item__info"><i class="fas fa-door-open"></i> 2 pokoje</span>
+            <span class="offer-item__info"><i class="fas fa-bed"></i> 4 łóżka</span>
+            <span class="offer-item__info"><i class="fas fa-bath"></i>  Łazienka w korytarzu</span>
+        </div>
+        
+        <div class="offer-item offer__normal">
+            <img src="img/bedroom_lite_2.jpg" alt="zdjęcie pokoju hotelowego">
+            <h1 class="offer-item__head">Pokoje Wieloosobowe</h1>
+            <p class="offer-item__text">Pokoje skierowane dla bardziej wymagających klientów.</p>
+            <span class="offer-item__info"><i class="fas fa-dollar-sign"></i> 40 PLN/pok.</span>
+            <span class="offer-item__info"><i class="fas fa-door-open"></i> 3 pokoje</span>
+            <span class="offer-item__info"><i class="fas fa-bed"></i> 6-10 łóżek</span>
+            <span class="offer-item__info"><i class="fas fa-bath"></i>  Łazienka w pokoju</span>
+        </div>
+    </section>
+
+    
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

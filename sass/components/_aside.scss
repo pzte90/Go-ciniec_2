@@ -1,0 +1,23 @@
+.aside-content{
+    //filter: blur(5px);
+    width: 100%;
+    padding: 0 15px 20px;
+    background-color: $bgc-color;
+    &__header-1{
+        font-size: 5rem;
+        letter-spacing: 2px;
+        padding-top: 10px;
+        color: $contrast-color;
+    }
+    &__header-2{
+        font-size: 3rem;
+        margin: 10px 0;
+        //color: $contrast-color;
+    }
+    &__text{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 10px 0;
+        color: $text-color;
+    }
+}
